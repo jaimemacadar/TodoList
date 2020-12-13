@@ -105,8 +105,7 @@ class HomePage extends StatelessWidget {
                                   onChanged: (bool value) {},
                                 ),
                                 title: Text(
-                                  'Teste',
-                                  //todo.descricao,
+                                  todo.descricao,
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
                                     fontSize: 20,
@@ -116,8 +115,7 @@ class HomePage extends StatelessWidget {
                                   ),
                                 ),
                                 trailing: Text(
-                                  '6:00',
-                                  //'${todo.dataHora.hour}:${todo.dataHora.minute}',
+                                  '${todo.dataHora.hour}:${todo.dataHora.minute}',
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
                                     fontSize: 20,
